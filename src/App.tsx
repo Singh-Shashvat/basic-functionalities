@@ -2,7 +2,6 @@
 import { Route, Routes } from "react-router-dom";
 // import LoginSignupForm from "./pages/loginSignupForm";
 // import AuthPage from "./pages/auth";
-import CounterCode from "./timepasstestreact/counterCode";
 // import DoctorsCard from "./components/doctorsCard";
 import BBgColorChanger from "./components/bgcolourchanger/bgColorChanger";
 import PasswordGenerator from "./components/password generator/passwordGenerator"
@@ -14,8 +13,7 @@ const App = () => {
     <>
 
       <Routes>
-        <Route element ={<CounterCode />} path="/" />
-        <Route element ={<PasswordGenerator />} path="/passwordgen" />
+        <Route element ={<PasswordGenerator />} path="/" />
         <Route element ={<BBgColorChanger />} path="/bgcolor" />
       </Routes>
 {/* 
